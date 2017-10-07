@@ -1,0 +1,230 @@
+#workspace {
+    width:100vw;
+    height:100vh;
+    position:absolute;
+    top:0;
+    left:0;
+    background-image: url(img/background/bliss.png);
+}
+
+#control {
+    width:485px;
+    height:50px;
+    position:fixed;
+    bottom:-718px;
+    top:0;
+    left:0;
+    right:0;
+    margin:auto;
+    border-style:solid;    
+    border-radius:10px;
+    transition:1s;
+}
+
+.button {
+    height:50px;
+    width:50px;
+    display: inline-block;
+}
+
+#image1 {
+    width:50px;
+    height:50px;
+    display: inline-block;
+}
+
+#img1 {
+    width:100%;
+    height:50px;
+    background-image: url(img/bears/bear1.png);
+    background-size: cover;
+    background-color: rgba(100,100,100,0);
+    border-style:hidden;  
+}
+
+#image2 {
+    width:50px;
+    height:50px;
+    display: inline-block;
+}
+
+#img2 {
+    width:100%;
+    height:50px;
+    background-image: url(img/bears/bear2.png);
+    background-size: cover;
+    background-color: rgba(100,100,100,0);
+    border-style:hidden;  
+}
+
+#image3 {
+    width:50px;
+    height:50px;
+    display: inline-block;
+}
+
+#img3 {
+    width:100%;
+    height:50px;
+    background-image: url(img/bears/bear3.png);
+    background-size: cover;
+    background-color: rgba(100,100,100,0);
+    border-style:hidden;   
+}
+
+#right {
+    width:50px;
+    height:50px;
+    background-image: url(img/buttons/rightBlack.png);
+    background-size: cover;  
+    background-color: rgba(100,100,100,0); 
+    border-style:hidden;  
+}
+
+#left {
+    width:50px;
+    height:50px;
+    background-image: url(img/buttons/leftBlack.png);
+    background-size: cover;  
+    background-color: rgba(100,100,100,0);
+    border-style:hidden;  
+}
+
+#up {
+    width:50px;
+    height:50px;
+    background-image: url(img/buttons/upBlack.png);
+    background-size: cover;   
+    background-color: rgba(100,100,100,0);
+    border-style:hidden;  
+}
+
+#down {
+    width:50px;
+    height:50px;
+    background-image: url(img/buttons/downBlack.png);
+    background-size: cover;   
+    background-color: rgba(100,100,100,0);
+    border-style:hidden;  
+}
+
+#upSize {
+    width:50px;
+    height:50px;
+    background-image: url(img/buttons/plus.png);
+    background-size: cover; 
+    background-color: rgba(100,100,100,0);
+    border-style:hidden;  
+}
+
+#downSize {
+    width:50px;
+    height:50px;
+    background-image: url(img/buttons/minus.png);
+    background-size: cover;
+    background-color: rgba(100,100,100,0);
+    border-style:hidden;  
+}
+
+#reset {
+    width:20%;
+    height:20px;
+    position:absolute;
+    bottom:-80px;
+    top:0;
+    left:0;
+    right:0;
+    margin:auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(230,100,100)
+}
+
+#open {
+    width:35%;
+    height:30px;
+    position:absolute;
+    bottom:0;
+    top:-90px;
+    left:0;
+    right:0;
+    margin:auto;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-image: url(img/buttons/open.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(130,170,170,0.9);
+    border-style: hidden;
+    transition: 1s;
+}
+
+#bearImages {
+    width:150px;
+    height:150px;
+    background-image: url(img/bears/bear1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgba(100,100,100,0);
+    border-style:hidden;  
+    position:absolute;
+    bottom:0;
+    top:0;
+    left:600px;
+    right:0;
+    margin:auto;
+    transition:0.1s;
+}
+
+#dogImages {
+    width:150px;
+    height:150px;
+    background-image: url(img/dogs/dog1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgba(100,100,100,0);
+    border-style:hidden;  
+    position:absolute;
+    bottom:0;
+    top:0;
+    left:200px;
+    right:0;
+    margin:auto;
+    transition:0.1s;
+}
+
+#birdImages {
+    width:150px;
+    height:150px;
+    background-image: url(img/birds/bird1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgba(100,100,100,0);
+    border-style:hidden;  
+    position:absolute;
+    bottom:0;
+    top:0;
+    left:-200px;
+    right:0;
+    margin:auto;
+    transition:0.1s;
+}
+
+#horseImages {
+    width:150px;
+    height:150px;
+    background-image: url(img/horses/horse1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgba(100,100,100,0);
+    border-style:hidden;  
+    position:absolute;
+    bottom:0;
+    top:0;
+    left:-600px;
+    right:0;
+    margin:auto;
+    transition:0.1s;
+}
+
